@@ -1,4 +1,4 @@
-status: proposed
+status: approved
 role: quest-narrative-designer
 purpose: In-game barks within the proposed limit (one line, at most 12 words), one fact each, no lore the player has not met. English for now (D-0008); shipped language is open (D-0013). Illustrative and not canon.
 

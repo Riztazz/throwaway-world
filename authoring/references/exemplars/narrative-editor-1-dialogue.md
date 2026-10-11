@@ -1,4 +1,4 @@
-status: proposed
+status: approved
 role: narrative-editor
 purpose: Shows an edit at line level: which tests fail, what the edit keeps, and what it drops and flags for the writer. The edit serves the effect, not any author's voice. Illustrative and not canon.
 

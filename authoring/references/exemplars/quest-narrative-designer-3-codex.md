@@ -1,4 +1,4 @@
-status: proposed
+status: approved
 role: quest-narrative-designer
 purpose: Signs and codex entries within the proposed limit (at most 40 words each). Each names a rule as it stands and does not explain the older one. English for now (D-0008). Illustrative and not canon.
 

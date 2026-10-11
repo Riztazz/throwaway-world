@@ -1,4 +1,4 @@
-status: proposed
+status: approved
 role: fiction-writer
 purpose: An ending that settles the practical problem and leaves the cost of the rule open. No revelation, no special status. About 110 words, illustrative and not canon.
 

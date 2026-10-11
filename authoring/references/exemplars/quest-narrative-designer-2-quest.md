@@ -1,4 +1,4 @@
-status: proposed
+status: approved
 role: quest-narrative-designer
 purpose: A quest text in the case-against-rule shape: a case, a ruling, a practical consequence, with a choice. Each beat is at most three short sentences. No rewards or balance values. English for now (D-0008). Illustrative and not canon.
 

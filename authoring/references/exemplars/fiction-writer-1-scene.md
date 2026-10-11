@@ -1,4 +1,4 @@
-status: proposed
+status: approved
 role: fiction-writer
 purpose: A scene in the target voice: close third, a newcomer who pays for each fact, the dodge, the flat register, one costly detail. About 270 words, illustrative and not canon.
 

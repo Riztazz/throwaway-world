@@ -1,4 +1,4 @@
-status: proposed
+status: approved
 role: narrative-editor
 purpose: Shows an edit of descriptive prose: mood words and a stock comparison replaced by a checkable comparison and a cost. Illustrative and not canon.
 

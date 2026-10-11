@@ -1,6 +1,6 @@
 # Voice
 
-Status: proposed
+Status: approved
 
 The user approves this file by changing the status line to `Status: approved`. Sources: the intake tone ("Rzeczowy i powściągliwy. Praktyczne skutki ważniejsze niż widowisko."), the exclusions (no chosen-one plot, no all-knowing narrator), PEGI 16 with no sexual content, the reference map in `authoring/references/ANALYSIS.md`, and decisions D-0006 (stories) and D-0008 (English).
 

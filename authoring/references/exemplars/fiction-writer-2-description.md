@@ -1,4 +1,4 @@
-status: proposed
+status: approved
 role: fiction-writer
 purpose: A descriptive passage: comparisons from the trade, one mood detail with a cost, nothing explained. The fact sheet beside it lets the passage be checked. Illustrative and not canon.
 

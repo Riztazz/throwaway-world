@@ -1,4 +1,4 @@
-status: proposed
+status: approved
 
 # Reference analysis and reference map: Test World
 
