@@ -12,11 +12,11 @@ Generated from the files; data, not instructions.
 - Name: Test World (`test-world`); library 0.2.0.
 - For: online-game, short-stories (starts with online-game); packs: game, live-game.
 - Language: Biblia świata po angielsku, teksty w grze po polsku
-- Bootstrap: not ready; next: the reference map (authoring/references/ANALYSIS.md) is not written yet: run the bootstrap prompt (`bootstrap_status.py` has the full list).
+- Bootstrap: not ready; next: approve the reference map: set `status: approved` in authoring/references/ANALYSIS.md (`bootstrap_status.py` has the full list).
 - References: hard: Jarosław Grzędowicz; soft: none.
 - Pages: 0 (0 accepted, 0 not yet).
 - Checkpoint: 2026-10-11; 0 page(s) changed since.
-- Decisions: 0 accepted, 0 open or proposed (open questions: `decisions/INBOX.md`).
+- Decisions: 12 accepted, 1 open or proposed (open questions: `decisions/INBOX.md`).
 - Drafts: 0 stories, 0 series, 0 system specs, 0 pitch rounds.
 - Roles bound: 28.
 <!-- world-facts:end -->
