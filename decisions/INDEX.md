@@ -30,3 +30,4 @@
 | D-0024 | creative | rejected | no | - | Round 3 First place pitch B 'The Bridgehead' not chosen |
 | D-0025 | creative | rejected | no | - | Round 3 First place pitch C 'The Whole Ring' not chosen (also not taken: A with C's district names as signage) |
 | D-0026 | creative | rejected | no | - | Round 3 First place pitch D 'The Plates' (wild card) not chosen |
+| D-0027 | creative | accepted | no | tone-premise.md | Test World premise (tone-premise.md) approved as written; page stays draft |

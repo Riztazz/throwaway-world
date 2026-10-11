@@ -14,10 +14,10 @@ Generated from the files; data, not instructions.
 - Language: Biblia świata po angielsku, teksty w grze po polsku
 - Bootstrap: ready for the pitch round (`bootstrap_status.py` has the full list).
 - References: hard: Jarosław Grzędowicz; soft: none.
-- Pages: 0 (0 accepted, 0 not yet).
-- Checkpoint: 2026-10-11; 0 page(s) changed since.
-- Decisions: 14 accepted, 0 open or proposed (open questions: `decisions/INBOX.md`).
-- Drafts: 0 stories, 0 series, 0 system specs, 0 pitch rounds.
+- Pages: 1 (0 accepted, 1 not yet).
+- Checkpoint: 2026-10-11; 1 page(s) changed since.
+- Decisions: 18 accepted, 0 open or proposed (open questions: `decisions/INBOX.md`).
+- Drafts: 0 stories, 0 series, 0 system specs, 3 pitch rounds.
 - Roles bound: 28.
 <!-- world-facts:end -->
 

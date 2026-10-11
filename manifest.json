@@ -1,5 +1,7 @@
 {
-  "pages": [],
+  "pages": [
+    { "file": "tone-premise.md", "typeKey": "tone-premise", "fields": { "status": "draft", "summary": "Łódź on the river Żółwia, where each present rule makes sense only with the older rule it replaced and the keeper who still holds it." } }
+  ],
   "assets": [],
   "maps": []
 }
