@@ -1,0 +1,119 @@
+{
+  "version": 1,
+  "projectId": "test-world",
+  "revision": "1",
+  "roles": {
+    "world-director": {
+      "requiredSkills": [],
+      "requiredContext": []
+    },
+    "reference-analyst-adapter": {
+      "requiredSkills": [],
+      "requiredContext": []
+    },
+    "canon-custodian": {
+      "requiredSkills": [],
+      "requiredContext": []
+    },
+    "magic-fusion": {
+      "requiredSkills": [],
+      "requiredContext": []
+    },
+    "geographer-ecologist": {
+      "requiredSkills": [],
+      "requiredContext": []
+    },
+    "historian": {
+      "requiredSkills": [],
+      "requiredContext": []
+    },
+    "culture-builder": {
+      "requiredSkills": [],
+      "requiredContext": []
+    },
+    "faction-designer": {
+      "requiredSkills": [],
+      "requiredContext": []
+    },
+    "cosmologist": {
+      "requiredSkills": [],
+      "requiredContext": []
+    },
+    "economy-designer": {
+      "requiredSkills": [],
+      "requiredContext": []
+    },
+    "naming-specialist": {
+      "requiredSkills": [],
+      "requiredContext": []
+    },
+    "bestiary-author": {
+      "requiredSkills": [],
+      "requiredContext": []
+    },
+    "character-designer": {
+      "requiredSkills": [],
+      "requiredContext": []
+    },
+    "location-designer": {
+      "requiredSkills": [],
+      "requiredContext": []
+    },
+    "cartographer": {
+      "requiredSkills": [],
+      "requiredContext": []
+    },
+    "environment-storyteller": {
+      "requiredSkills": [],
+      "requiredContext": []
+    },
+    "fiction-writer": {
+      "requiredSkills": [],
+      "requiredContext": []
+    },
+    "knowledge-architect": {
+      "requiredSkills": [],
+      "requiredContext": []
+    },
+    "quest-narrative-designer": {
+      "requiredSkills": [],
+      "requiredContext": []
+    },
+    "narrative-systems-designer": {
+      "requiredSkills": [],
+      "requiredContext": []
+    },
+    "persistent-state-designer": {
+      "requiredSkills": [],
+      "requiredContext": []
+    },
+    "live-roadmap-planner": {
+      "requiredSkills": [],
+      "requiredContext": []
+    },
+    "live-event-designer": {
+      "requiredSkills": [],
+      "requiredContext": []
+    },
+    "player-societies-specialist": {
+      "requiredSkills": [],
+      "requiredContext": []
+    },
+    "onboarding-legacy-designer": {
+      "requiredSkills": [],
+      "requiredContext": []
+    },
+    "narrative-editor": {
+      "requiredSkills": [],
+      "requiredContext": []
+    },
+    "narrative-qa-reviewer": {
+      "requiredSkills": [],
+      "requiredContext": []
+    },
+    "game-systems-designer": {
+      "requiredSkills": [],
+      "requiredContext": []
+    }
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "_comment": "Optional per-project model overrides. Same shape as the library default (agents/models.json); list only what you change, e.g. {\"claude\": {\"strong\": \"sonnet\"}, \"codex\": {\"strong\": \"gpt-6.1-sol\"}}. Reasoning effort works the same way under \"effort\": {\"claude\": {\"standard\": \"medium\"}, \"roles\": {\"fiction-writer\": \"xhigh\"}} (a role entry wins over a tier entry; claude accepts low, medium, high, xhigh, max; codex accepts low, medium, high, xhigh; null inherits the session). Re-run the bootstrapper update to apply.",
+  "claude": {},
+  "codex": {}
+}

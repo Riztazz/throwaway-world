@@ -1,0 +1,49 @@
+{
+  "projectId": "test-world",
+  "name": "Test World",
+  "created": "2026-10-11",
+  "libraryVersion": "0.2.0",
+  "packs": [
+    "game",
+    "live-game"
+  ],
+  "intake": {
+    "premise": "Miasto Łódź nad rzeką Żółwią, w którym dzisiejsze przepisy mają sens dopiero wtedy, gdy wiesz, którą dawną regułę każda z nich zastąpiła. Trwały, internetowy RPG z fantastyką w tle.",
+    "decided": "Świat jest oryginalny: odniesienia wpływają tylko na technikę.\nPierwsza część to jedno miasto i najbliższa okolica.",
+    "open": "Kto stanowi główne frakcje\nCentralny konflikt",
+    "medium_scale": "Jedno miasto i to, co można zobaczyć w godzinę marszu.",
+    "language": "Biblia świata po angielsku, teksty w grze po polsku",
+    "tone": "Rzeczowy i powściągliwy. Praktyczne skutki ważniejsze niż widowisko.",
+    "exclusions": "Fabuła o wybrańcu\nNarrator, który wszystko wie",
+    "audience": "Dorośli, PEGI 16, bez treści seksualnych",
+    "player": "Nowicjusz z Łodzi, który podejmuje pracę jako tragarz nad rzeką Żółwią",
+    "length": "Krótkie opowiadania po 3000 do 6000 słów",
+    "products": [
+      "online-game",
+      "short-stories"
+    ],
+    "start_with": "online-game",
+    "fiction": true
+  },
+  "references": [
+    {
+      "creator": "Jarosław Grzędowicz",
+      "work": "Pan lodowego ogrodu",
+      "medium": "Book",
+      "edition": "",
+      "spoiler": "",
+      "pointer": "",
+      "focus": "",
+      "avoid": "",
+      "notes": "",
+      "binding": "hard",
+      "aspects": [
+        "dialogue",
+        "world-history",
+        "magic-powers",
+        "tone-atmosphere",
+        "prose-style"
+      ]
+    }
+  ]
+}

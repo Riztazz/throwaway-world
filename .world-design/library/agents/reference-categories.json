@@ -1,0 +1,233 @@
+{
+  "version": 1,
+  "_comment": "Maps reference categories to the roles that read them. A role's reference chain is: authoring/references/roles/<role>.md, then authoring/references/categories/<id>.md for each category listing the role, then voice.md. required_roles (plan decision 22) are the roles that should not be considered configured without at least one reference level plus voice.md.",
+  "required_roles": [
+    "world-director",
+    "fiction-writer",
+    "narrative-editor",
+    "historian",
+    "culture-builder",
+    "character-designer",
+    "quest-narrative-designer",
+    "magic-fusion"
+  ],
+  "categories": [
+    {
+      "id": "concept-tone",
+      "label": "Concept, premise and tone",
+      "description": "References for the central idea, intended experience, themes and atmosphere.",
+      "roles": [
+        "world-director"
+      ],
+      "group": "core"
+    },
+    {
+      "id": "worldbuilding",
+      "label": "Worldbuilding and history",
+      "description": "References for layered history, geography, institutions and believable places.",
+      "roles": [
+        "world-director",
+        "geographer-ecologist",
+        "historian",
+        "location-designer",
+        "cartographer"
+      ],
+      "group": "core"
+    },
+    {
+      "id": "magic-powers",
+      "label": "Magic and power systems",
+      "description": "References for rules, limits, costs, interactions and social consequences of power.",
+      "roles": [
+        "magic-fusion"
+      ],
+      "group": "core"
+    },
+    {
+      "id": "cultures-factions",
+      "label": "Cultures, factions and everyday life",
+      "description": "References for communities, institutions, belief, economy and lived material culture.",
+      "roles": [
+        "culture-builder",
+        "faction-designer",
+        "cosmologist",
+        "economy-designer",
+        "naming-specialist",
+        "player-societies-specialist"
+      ],
+      "group": "core"
+    },
+    {
+      "id": "characters-fiction",
+      "label": "Characters and fiction",
+      "description": "References for characterization, relationships, viewpoint, story structure and dialogue.",
+      "roles": [
+        "character-designer",
+        "fiction-writer",
+        "quest-narrative-designer",
+        "narrative-editor"
+      ],
+      "group": "core"
+    },
+    {
+      "id": "description-exposition",
+      "label": "Description and exposition",
+      "description": "References for conveying unfamiliar places, people, cultures and ideas through original prose.",
+      "roles": [
+        "fiction-writer",
+        "environment-storyteller",
+        "knowledge-architect",
+        "narrative-editor"
+      ],
+      "group": "core"
+    },
+    {
+      "id": "geography-ecology",
+      "label": "Geography and ecology",
+      "description": "An optional focused reference for physical landscapes, climate, resources and habitats.",
+      "roles": [
+        "geographer-ecologist"
+      ],
+      "group": "specialist"
+    },
+    {
+      "id": "history",
+      "label": "History and chronology",
+      "description": "An optional focused reference for causality, dating, contested accounts and historical layers.",
+      "roles": [
+        "historian"
+      ],
+      "group": "specialist"
+    },
+    {
+      "id": "belief-cosmology",
+      "label": "Belief and cosmology",
+      "description": "An optional focused reference for religions, metaphysics and differences between belief and truth.",
+      "roles": [
+        "cosmologist"
+      ],
+      "group": "specialist"
+    },
+    {
+      "id": "economy-trade",
+      "label": "Economy and trade",
+      "description": "An optional focused reference for labor, ownership, infrastructure and exchange.",
+      "roles": [
+        "economy-designer"
+      ],
+      "group": "specialist"
+    },
+    {
+      "id": "language-naming",
+      "label": "Language and naming",
+      "description": "An optional focused reference for naming patterns, cultural contact and terminology.",
+      "roles": [
+        "naming-specialist"
+      ],
+      "group": "specialist"
+    },
+    {
+      "id": "creatures",
+      "label": "Creatures and ecology",
+      "description": "An optional reference for living creatures, habitats and interactions with society.",
+      "roles": [
+        "bestiary-author"
+      ],
+      "group": "specialist"
+    },
+    {
+      "id": "locations",
+      "label": "Locations and settlements",
+      "description": "An optional focused reference for inhabitable places and their present-day pressures.",
+      "roles": [
+        "location-designer"
+      ],
+      "group": "specialist"
+    },
+    {
+      "id": "cartography",
+      "label": "Maps and spatial storytelling",
+      "description": "An optional reference for maps, scale, routes, legends and deliberate uncertainty.",
+      "roles": [
+        "cartographer"
+      ],
+      "group": "specialist"
+    },
+    {
+      "id": "environmental-storytelling",
+      "label": "Environmental storytelling",
+      "description": "An optional reference for discoverable traces and fair inference from the environment.",
+      "roles": [
+        "environment-storyteller"
+      ],
+      "group": "specialist"
+    },
+    {
+      "id": "lore-documents",
+      "label": "Lore and in-world documents",
+      "description": "An optional reference for situated documents, ambient details and attributed accounts.",
+      "roles": [
+        "environment-storyteller"
+      ],
+      "group": "specialist"
+    },
+    {
+      "id": "knowledge-revelations",
+      "label": "Knowledge and revelations",
+      "description": "An optional reference for how audiences learn, discover and reinterpret information.",
+      "roles": [
+        "knowledge-architect"
+      ],
+      "group": "specialist"
+    },
+    {
+      "id": "quests",
+      "label": "Quests and player agency",
+      "description": "An optional reference for player actions, branches and understandable consequences.",
+      "roles": [
+        "quest-narrative-designer"
+      ],
+      "group": "specialist"
+    },
+    {
+      "id": "narrative-systems",
+      "label": "Narrative systems and persistent state",
+      "description": "An optional reference for reactions, shared consequences and repeatable narrative behavior.",
+      "roles": [
+        "narrative-systems-designer",
+        "persistent-state-designer"
+      ],
+      "group": "specialist"
+    },
+    {
+      "id": "live-world",
+      "label": "Live events and ongoing arcs",
+      "description": "An optional reference for shared events, causal story waves and late participation.",
+      "roles": [
+        "live-event-designer",
+        "live-roadmap-planner",
+        "onboarding-legacy-designer"
+      ],
+      "group": "specialist"
+    },
+    {
+      "id": "player-societies",
+      "label": "Player societies and emergent history",
+      "description": "An optional reference for collective player agency and evidence-based emergent history.",
+      "roles": [
+        "player-societies-specialist"
+      ],
+      "group": "specialist"
+    },
+    {
+      "id": "continuity",
+      "label": "Continuity and narrative review",
+      "description": "An optional reference for continuity methods and a specific review lens.",
+      "roles": [
+        "canon-custodian",
+        "narrative-qa-reviewer"
+      ],
+      "group": "specialist"
+    }
+  ]
+}

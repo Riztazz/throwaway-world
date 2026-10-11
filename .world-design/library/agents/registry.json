@@ -1,0 +1,347 @@
+{
+  "version": 1,
+  "profiles": [
+    {
+      "id": "world-director",
+      "name": "World Director",
+      "description": "Route scoped worldbuilding or establish premise, tone, audience, and testable pillars.",
+      "mode": "specialist",
+      "skills": [
+        "design-world-bible",
+        "design-tone-premise"
+      ],
+      "path": "roles/world-director.md",
+      "pack": "core",
+      "tier": "strong"
+    },
+    {
+      "id": "reference-analyst-adapter",
+      "name": "Reference Analyst/Adapter",
+      "description": "Analyze supplied works with versioned evidence; optionally transform techniques into original proposals.",
+      "mode": "specialist",
+      "skills": [
+        "design-reference-analysis",
+        "design-reference-synthesis"
+      ],
+      "path": "roles/reference-analyst-adapter.md",
+      "pack": "core",
+      "tier": "standard"
+    },
+    {
+      "id": "canon-custodian",
+      "name": "Canon Custodian",
+      "description": "Track authoritative claims, contradictions, revisions, and dependency impact.",
+      "mode": "specialist",
+      "skills": [
+        "design-canon-continuity"
+      ],
+      "path": "roles/canon-custodian.md",
+      "pack": "core",
+      "tier": "strong"
+    },
+    {
+      "id": "magic-fusion",
+      "name": "Magic Fusion Specialist",
+      "description": "Define coherent world-level powers, limits, costs, and interactions.",
+      "mode": "specialist",
+      "skills": [
+        "design-magic-system-fusion"
+      ],
+      "path": "roles/magic-fusion.md",
+      "pack": "core",
+      "tier": "standard"
+    },
+    {
+      "id": "geographer-ecologist",
+      "name": "Geography & Ecology Specialist",
+      "description": "Build physical regions, climate, water, resources, habitats, and ecological constraints.",
+      "mode": "specialist",
+      "skills": [
+        "design-geography-ecology"
+      ],
+      "path": "roles/geographer-ecologist.md",
+      "pack": "core",
+      "tier": "standard"
+    },
+    {
+      "id": "historian",
+      "name": "History & Timeline Specialist",
+      "description": "Build a dated causal past and distinguish truth from attributed accounts.",
+      "mode": "specialist",
+      "skills": [
+        "design-history-timeline"
+      ],
+      "path": "roles/historian.md",
+      "pack": "core",
+      "tier": "standard"
+    },
+    {
+      "id": "culture-builder",
+      "name": "Culture & Everyday Life Specialist",
+      "description": "Build lived communities through material conditions, practice, and variation.",
+      "mode": "specialist",
+      "skills": [
+        "design-culture-everyday-life"
+      ],
+      "path": "roles/culture-builder.md",
+      "pack": "core",
+      "tier": "standard"
+    },
+    {
+      "id": "faction-designer",
+      "name": "Faction & Culture Specialist",
+      "description": "Design institutions and powers with goals, resources, membership, and relationships.",
+      "mode": "specialist",
+      "skills": [
+        "design-faction-culture"
+      ],
+      "path": "roles/faction-designer.md",
+      "pack": "core",
+      "tier": "standard"
+    },
+    {
+      "id": "cosmologist",
+      "name": "Cosmology & Belief Specialist",
+      "description": "Develop sacred practice while distinguishing belief from authorial truth.",
+      "mode": "specialist",
+      "skills": [
+        "design-cosmology-belief"
+      ],
+      "path": "roles/cosmologist.md",
+      "pack": "core",
+      "tier": "standard"
+    },
+    {
+      "id": "economy-designer",
+      "name": "Economy & Trade Specialist",
+      "description": "Explain how labor, resources, infrastructure, ownership, and exchange sustain communities.",
+      "mode": "specialist",
+      "skills": [
+        "design-economy-trade"
+      ],
+      "path": "roles/economy-designer.md",
+      "pack": "core",
+      "tier": "standard"
+    },
+    {
+      "id": "naming-specialist",
+      "name": "Language & Naming Specialist",
+      "description": "Create consistent names and terms grounded in communities, contact, and history.",
+      "mode": "specialist",
+      "skills": [
+        "design-language-naming"
+      ],
+      "path": "roles/naming-specialist.md",
+      "pack": "core",
+      "tier": "standard"
+    },
+    {
+      "id": "bestiary-author",
+      "name": "Bestiary Specialist",
+      "description": "Define creatures as living entities in habitats and societies.",
+      "mode": "specialist",
+      "skills": [
+        "design-bestiary"
+      ],
+      "path": "roles/bestiary-author.md",
+      "pack": "core",
+      "tier": "standard"
+    },
+    {
+      "id": "character-designer",
+      "name": "Character Bible Specialist",
+      "description": "Create individuals with motives, relationships, histories, and knowledge limits.",
+      "mode": "specialist",
+      "skills": [
+        "design-character-bible"
+      ],
+      "path": "roles/character-designer.md",
+      "pack": "core",
+      "tier": "standard"
+    },
+    {
+      "id": "location-designer",
+      "name": "Location Bible Specialist",
+      "description": "Assemble an inhabitable place from geography, control, history, and present life.",
+      "mode": "specialist",
+      "skills": [
+        "design-location-bible"
+      ],
+      "path": "roles/location-designer.md",
+      "pack": "core",
+      "tier": "standard"
+    },
+    {
+      "id": "cartographer",
+      "name": "Cartographer Specialist",
+      "description": "Maintain a geographically consistent atlas and gazetteer with scale and uncertainty.",
+      "mode": "specialist",
+      "skills": [
+        "design-cartographer"
+      ],
+      "path": "roles/cartographer.md",
+      "pack": "core",
+      "tier": "standard"
+    },
+    {
+      "id": "environment-storyteller",
+      "name": "Environmental Storytelling Specialist",
+      "description": "Turn established causes into discoverable traces with fair inference.",
+      "mode": "specialist",
+      "skills": [
+        "design-environmental-storytelling",
+        "design-trivia-flavor"
+      ],
+      "path": "roles/environment-storyteller.md",
+      "pack": "core",
+      "tier": "standard"
+    },
+    {
+      "id": "fiction-writer",
+      "name": "Fiction Writer",
+      "description": "Outline or write original fiction and dialogue with causal structure and viewpoint.",
+      "mode": "specialist",
+      "skills": [
+        "design-fiction-drafting",
+        "design-dialogue",
+        "design-world-description-exposition"
+      ],
+      "path": "roles/fiction-writer.md",
+      "pack": "core",
+      "tier": "strong"
+    },
+    {
+      "id": "knowledge-architect",
+      "name": "Knowledge & Revelations Specialist",
+      "description": "Plan who learns what, by which routes, and at what spoiler level.",
+      "mode": "specialist",
+      "skills": [
+        "design-knowledge-revelations"
+      ],
+      "path": "roles/knowledge-architect.md",
+      "pack": "core",
+      "tier": "standard"
+    },
+    {
+      "id": "quest-narrative-designer",
+      "name": "Quest Narrative Specialist",
+      "description": "Specify player actions, branches, and consequences for a quest.",
+      "mode": "specialist",
+      "skills": [
+        "design-quest-narrative",
+        "design-story-hooks"
+      ],
+      "path": "roles/quest-narrative-designer.md",
+      "pack": "core",
+      "tier": "standard"
+    },
+    {
+      "id": "narrative-systems-designer",
+      "name": "Narrative Systems Specialist",
+      "description": "Specify reusable narrative reaction rules and contracts.",
+      "mode": "specialist",
+      "skills": [
+        "design-narrative-systems"
+      ],
+      "path": "roles/narrative-systems-designer.md",
+      "pack": "core",
+      "tier": "standard"
+    },
+    {
+      "id": "persistent-state-designer",
+      "name": "Persistent State Specialist",
+      "description": "Define authority, scope, transitions, replay, and concurrency for persistent outcomes.",
+      "mode": "specialist",
+      "skills": [
+        "design-persistent-world-state"
+      ],
+      "path": "roles/persistent-state-designer.md",
+      "pack": "live-game",
+      "tier": "standard"
+    },
+    {
+      "id": "live-roadmap-planner",
+      "name": "Live Narrative Roadmap Specialist",
+      "description": "Plan causal future story waves without inventing release schedules.",
+      "mode": "specialist",
+      "skills": [
+        "design-live-narrative-roadmap"
+      ],
+      "path": "roles/live-roadmap-planner.md",
+      "pack": "live-game",
+      "tier": "standard"
+    },
+    {
+      "id": "live-event-designer",
+      "name": "Live Events Specialist",
+      "description": "Design multiplayer events with phases, shared outcomes, and late access.",
+      "mode": "specialist",
+      "skills": [
+        "design-live-events"
+      ],
+      "path": "roles/live-event-designer.md",
+      "pack": "live-game",
+      "tier": "standard"
+    },
+    {
+      "id": "player-societies-specialist",
+      "name": "Player Societies Specialist",
+      "description": "Support collective player agency or document emergent history with evidence.",
+      "mode": "specialist",
+      "skills": [
+        "design-player-societies"
+      ],
+      "path": "roles/player-societies-specialist.md",
+      "pack": "live-game",
+      "tier": "standard"
+    },
+    {
+      "id": "onboarding-legacy-designer",
+      "name": "Onboarding & Legacy Specialist",
+      "description": "Orient newcomers and returners and preserve access to missed history.",
+      "mode": "specialist",
+      "skills": [
+        "design-onboarding-legacy"
+      ],
+      "path": "roles/onboarding-legacy-designer.md",
+      "pack": "live-game",
+      "tier": "standard"
+    },
+    {
+      "id": "narrative-editor",
+      "name": "Narrative Editor",
+      "description": "Edit or critique a draft at the requested level while preserving intent and canon.",
+      "mode": "reviewer",
+      "skills": [
+        "design-narrative-editing"
+      ],
+      "path": "roles/narrative-editor.md",
+      "pack": "core",
+      "tier": "strong"
+    },
+    {
+      "id": "narrative-qa-reviewer",
+      "name": "Narrative QA Reviewer",
+      "description": "Review one artifact through a requested behavior, access, or implementation lens.",
+      "mode": "reviewer",
+      "skills": [
+        "design-narrative-qa"
+      ],
+      "path": "roles/narrative-qa-reviewer.md",
+      "pack": "core",
+      "tier": "standard"
+    },
+    {
+      "id": "game-systems-designer",
+      "name": "Game Systems Designer",
+      "description": "Specify game mechanics in prose: loops, resources, rules and progression shape, without balance numbers.",
+      "mode": "specialist",
+      "skills": [
+        "design-game-systems"
+      ],
+      "path": "roles/game-systems-designer.md",
+      "pack": "game",
+      "tier": "standard"
+    }
+  ]
+}

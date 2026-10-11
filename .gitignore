@@ -1,0 +1,4 @@
+.world-design/cache/
+.world-design/state/
+__pycache__/
+*.pyc

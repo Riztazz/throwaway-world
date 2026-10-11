@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "_comment": "Model per tier and provider. strong = world-director, canon-custodian, fiction-writer, narrative-editor (plan decision 57); standard = every other role. Claude aliases are confirmed in docs/PROVIDERS.md. Codex names were confirmed on 2026-10-10: all three of gpt-6.1-sol, gpt-6-luna and gpt-6-sol answered on the user's ChatGPT login (evals/reports/probe-20261010-1602-probe); override per world in .agents/narrative/models.json. A null means: emit no model and inherit the session's. effort (task K2): reasoning effort per tier and provider, with per-role entries under effort.roles that win over the tier; null means inherit the session's (Opus 5.5 and Sonnet 5.5 default to medium). Starting values, to be judged by the user on real output: strong roles high, magic logic high, the rest inherit. A world overrides any of this in .agents/narrative/models.json.",
+  "claude": {
+    "strong": "opus",
+    "standard": "sonnet"
+  },
+  "codex": {
+    "strong": "gpt-6.1-sol",
+    "standard": "gpt-6-luna"
+  },
+  "effort": {
+    "claude": {
+      "strong": "high",
+      "standard": null
+    },
+    "codex": {
+      "strong": "high",
+      "standard": null
+    },
+    "roles": {
+      "magic-fusion": "high"
+    }
+  }
+}

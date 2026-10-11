@@ -1,0 +1,24 @@
+{
+  "lint": {
+    "card_required_fields": ["Id", "Binding", "Effect", "Mechanism", "Test", "Plain", "Applied", "Evidence"],
+    "card_sample_max_words": 80,
+    "balance_patterns": [
+      "damage", "dps", "cooldowns?", "drop[- ]?(?:rate|chance)", "xp", "exp", "hp", "health", "mana", "stamina", "cost", "costs",
+      "armou?r", "resistance", "crit(?:ical)?", "attack speed", "regen(?:eration)?", "duration", "radius", "multipliers?",
+      "per (?:second|minute|hour|level|tick)", "percent"
+    ],
+    "voice_sections": ["bible prose", "fiction", "in-game text", "dialogue"],
+    "story_done_statuses": ["drafted", "revised", "final", "done", "written"]
+  },
+  "feedback": {
+    "max_shown": 8,
+    "watched_paths": [
+      "world/", "decisions/", "ledger/", "drafts/stories/", "drafts/series/", "authoring/references/", "design/pitches/", "design/systems/"
+    ]
+  },
+  "bootstrap": {
+    "max_hard_references": 3,
+    "max_bulk_sources": 40
+  },
+  "checks": {}
+}
