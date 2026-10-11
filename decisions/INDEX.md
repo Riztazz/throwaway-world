@@ -18,3 +18,15 @@
 | D-0012 | creative | accepted | no | - | China Miéville is a SOFT reference (rules, institutions, restraint) |
 | D-0013 | question | accepted | no | - | Shipped in-game text language: intake says Polish; D-0008 says in-game samples in English. Is the shipped game text Polish with English working samples, or English? |
 | D-0014 | project | accepted | no | - | Bootstrap outputs approved: reference map, voice.md and the exemplars |
+| D-0015 | question | accepted | no | - | Round 1 Core: A Two Books / B Crowd Is the Weather / C The Docket / D The Turn (wild card). Recommended: A, optionally with B's trigger. Options in design/pitches/round-1-core.md |
+| D-0016 | creative | rejected | no | - | Round 1 Core pitch B 'The Crowd Is the Weather' not chosen (also not taken: the 'A with B's trigger' merge) |
+| D-0017 | creative | rejected | no | - | Round 1 Core pitch C 'The Docket' not chosen |
+| D-0018 | creative | rejected | no | - | Round 1 Core pitch D 'The Turn' (wild card) not chosen |
+| D-0019 | question | accepted | no | - | Round 2 Cast: A Three Accounts / B The Route / C Who Pays / D The Reason-Writers (wild card). Recommended: A plus Wincenty Zajac from C. Options in design/pitches/round-2-cast.md |
+| D-0020 | creative | rejected | no | - | Round 2 Cast pitch B 'The Route' not chosen |
+| D-0021 | creative | rejected | no | - | Round 2 Cast pitch C 'Who Pays' not chosen as the cast (only its seed Wincenty Zajac is taken, see D-0019) |
+| D-0022 | creative | rejected | no | - | Round 2 Cast pitch D 'The Reason-Writers' (wild card) not chosen |
+| D-0023 | question | accepted | no | - | Round 3 First place: A The Reach / B The Bridgehead / C The Whole Ring / D The Plates (wild card). Recommended: A, optionally with C's district names as signage only. Options in design/pitches/round-3-first-place.md |
+| D-0024 | creative | rejected | no | - | Round 3 First place pitch B 'The Bridgehead' not chosen |
+| D-0025 | creative | rejected | no | - | Round 3 First place pitch C 'The Whole Ring' not chosen (also not taken: A with C's district names as signage) |
+| D-0026 | creative | rejected | no | - | Round 3 First place pitch D 'The Plates' (wild card) not chosen |
