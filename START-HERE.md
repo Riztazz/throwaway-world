@@ -8,14 +8,14 @@ One page. Do one step at a time. You judge, the agent invents.
 2. **Fill it** (rough is fine): name, your ideas, what it is for (game, stories, both). Add references if you have any:
    - **hard** = must show (max 3). **soft** = inspiration.
    - Pasting 15 titles? Use the list box. The agent picks who fits what.
-3. **Pick an empty folder**, press Create. The page then shows your first prompt with a **Copy prompt** button (the same text is saved in the folder as `BOOTSTRAP-PROMPT.md`). Open the folder in Claude Code or Codex.
+3. **Pick an empty folder**, press Create. The page then shows your first message with a **Copy** button (the full prompt is saved in the folder as `BOOTSTRAP-PROMPT.md`). Open the folder in Claude Code or Codex.
 4. **Paste:** `Read BOOTSTRAP-PROMPT.md in this folder and follow it.`
-5. **Answer its one message.** It proposes which reference serves which part. Say yes, no or "mix". Your own words are fine.
-6. **Approve three things** (or tell the agent "run bootstrap_status" to see what is left):
-   - `authoring/references/ANALYSIS.md`: set `status: approved`
-   - `voice.md`: set `Status: approved`
-   - one file in `authoring/references/exemplars/`: `status: approved`
-7. **New session. Paste:** `Read PITCH-PROMPT.md in this folder and follow it.` Pick A, B, C, D or "A but with B's cost". Three rounds: core, cast, first place.
+5. **Answer its questions.** It proposes which reference serves which part. Say yes, no or "mix". Your own words are fine.
+6. **Judge on the review page.** In the library folder run `py -3 tools/new_world.py --review <your world folder>`. The page updates as the agent works. For each card click **Approve** or **Reject** (one line why):
+   - the reference map (`ANALYSIS.md`) and `voice.md`
+   - the exemplars: short sample passages, one per kind of text. They are not competing options. Approve the ones that sound like your world; one is enough to start.
+   Then tell the agent "continue". (You can also edit the `status:` line in each file yourself, or say "run bootstrap_status" to see what is left.)
+7. **New session. Paste:** `Read PITCH-PROMPT.md in this folder and follow it.` Pick A, B, C, D or "A but with B's cost" (in chat, or on the review page). Three rounds: core, cast, first place.
 
 ## What you get in the folder
 

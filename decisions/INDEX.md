@@ -16,5 +16,5 @@
 | D-0010 | question | accepted | no | - | Which product leads canon, and where do the stories sit on the game timeline (recommended: game leads; stories in same city, apart from the player timeline, facts flow game to fiction) |
 | D-0011 | question | accepted | no | - | Player avatar: custom avatar inside the fixed novice-porter role in a shared world (recommended) or fixed hero |
 | D-0012 | creative | accepted | no | - | China Miéville is a SOFT reference (rules, institutions, restraint) |
-| D-0013 | question | open | no | - | Shipped in-game text language: intake says Polish; D-0008 says in-game samples in English. Is the shipped game text Polish with English working samples, or English? |
+| D-0013 | question | accepted | no | - | Shipped in-game text language: intake says Polish; D-0008 says in-game samples in English. Is the shipped game text Polish with English working samples, or English? |
 | D-0014 | project | accepted | no | - | Bootstrap outputs approved: reference map, voice.md and the exemplars |

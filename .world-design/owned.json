@@ -73,7 +73,7 @@
     ".claude/rules/world-decisions.md": "ab2ec521b97b1569dae876ee3f7debd73f24bf7a8a21145affa89ab7ad30d2a0",
     ".claude/rules/world-ledger.md": "5d9c353625190bf7ef35680b76cb7ff946325c11708bc726d2db61ecbc836a67",
     ".claude/rules/world-pages.md": "a7c7d84ce56003e9389fbd71ced3fac04db59f56c1b73119ba2154e7c180576b",
-    ".claude/rules/world-references.md": "f8fc35a4460d2307746530fe729570e65c392a412094b1873edcd45209eef047",
+    ".claude/rules/world-references.md": "8cdb1a3eea6e190e8a59bfb163fc1cd253d69d5329f2040abf7b19bcf40ee9fe",
     ".claude/rules/world-stories.md": "4e7e89940226cda911b7a5fb56b9704cb721bf9e0321428c91de776f8c335378",
     ".claude/settings.json": "827de47678a641446fbd2d1df8a3f0a02fb669967d03ab8b83e14dc704efa448",
     ".claude/skills/design-bestiary/SKILL.md": "edd62268857d749aa06d5baa9d22cf23a497f665f85903715be6056f03f6b5bb",
@@ -181,7 +181,7 @@
     ".world-design/library/agents/roles/reference-analyst-adapter.md": "edde1a182614d8e6fdfd7827aaac76b506bf580dfa5d5799658e854380290260",
     ".world-design/library/agents/roles/world-director.md": "99656b82ff7cc51e59c1656972e0ac3528650b455f1c8a2ebafe52d2be8cb475",
     ".world-design/library/agents/task-packet.md": "a84ad0ad902f534cbb7df8a5ed3dec85b44557f96f083ad42cfa9599c5453b6e",
-    ".world-design/library/docs/BOOTSTRAP.md": "5f8a21ca051ecf8d8d9d59f2bf48f2e01082d8f564d0d40cbff195ba97f50188",
+    ".world-design/library/docs/BOOTSTRAP.md": "fa5fc4ba4c63b92d14e47517b01d6d31b28d95b05fd7782c1fdee965db5c738d",
     ".world-design/library/docs/JUMPSTART.md": "359a9ba3e1e3fb9652764f2a4979d4101393a16a8cd751d9d724d9243986212b",
     ".world-design/library/docs/WORLD-HANDOFF.md": "09ef9c963822324b991f2b0f32940cd5c52d974211175df843b2cb025f545ea0",
     ".world-design/library/rules/DECISIONS.md": "56e9e385a4a1e0c046db8d52baa3fc3d4f167818a72ab0a8ef712c09743f3fe6",
@@ -242,7 +242,7 @@
     ".world-design/library/tools/svg_check.py": "20bb265d61ce729b3c1f4b19c8a1284738e8dc96d0febf9ad1cf88db72e6973c",
     ".world-design/library/tools/world.py": "d1e21e42d25c12d7c67251c86a21767ab5b2ce11757df398c721cfc92363e7db",
     ".world-design/library/tools/worlddesign/__init__.py": "acba8263f3e5116df6e273c2287d73291951ade72bf724e8a4081624d630ac7e",
-    ".world-design/library/tools/worlddesign/bootstrap_state.py": "23aae731dd60436676c467b9f3311a4ce256f4cd546b1613f3924cabe8763e62",
+    ".world-design/library/tools/worlddesign/bootstrap_state.py": "3d57419cb05cc1fbbd5dcc1c57947a768b4bdf30cbd8860f6e458a765497b7ee",
     ".world-design/library/tools/worlddesign/cache.py": "449dc4c5892dc458052b07be322fb75d1f330736c2025c395773d9399d908c5d",
     ".world-design/library/tools/worlddesign/cli.py": "184c1734190fb2e417f99a726aad94c14f29a0437ec5774cff5948e2c1abbbef",
     ".world-design/library/tools/worlddesign/codes.py": "1d38f2ec33684e35fda355c41b9c68e2339e0cca1cf2fcaf1805574e1eb6c8c9",
@@ -261,8 +261,9 @@
     ".world-design/library/tools/worlddesign/policy.py": "418871c682ff568e7107a154c1a1d19f662aac6c4a5110cbce928c96c95152bd",
     ".world-design/library/tools/worlddesign/policy_defaults.json": "59458a6aa7fa44b6a674067df7db931e3d3f8e3acfb5f51d19d0cbc62ebf718f",
     ".world-design/library/tools/worlddesign/records.py": "0d0d9ce6187507f69b0c6edd99b30fc78cb363fc5ae1e79918d63053a1f8ad62",
-    ".world-design/library/tools/worlddesign/refcheck.py": "ab3df185a3ff2a84961a05d06930c831bc1ea574092dedecfad6664540487b9a",
+    ".world-design/library/tools/worlddesign/refcheck.py": "5ab652b0d707eb1652f85b8645b35b88f8a5aed30b6d07706e453585ac12a438",
     ".world-design/library/tools/worlddesign/render.py": "3f7753e233562b2394e43d04a4dac5f99c879151646ce2c6d2ff5f851926dea0",
+    ".world-design/library/tools/worlddesign/review.py": "515e0560ebe18fc96c486a82871f01e5feba259b41790e29aab4e6526c91a75b",
     ".world-design/library/tools/worlddesign/review_packet.py": "07b8ac0be6fa77a7c935896d2138d931d207a059220b6a9a7a8948f602273cab",
     ".world-design/library/tools/worlddesign/search.py": "bfd2569a48a53878a6406a37327009cfdb3c4e1377f1ff73f3cfecb6385cc5f6",
     ".world-design/library/tools/worlddesign/stories.py": "b6cfb4dd033a4ac0369da85a358bb002a5bafcb3e25f145801aa15ef5d397f45",
@@ -274,8 +275,8 @@
     ".world-design/library/tools/worlddesign/types.py": "414a701b666c42b4239124fb25f41fa6193d1089385bf1d87fb7853bcc180342",
     ".world-design/library/tools/worlddesign/world.py": "92b90ee63435a7fe2aaa58e73654e2c5a360494b58ca83762c5b27d391643b05",
     ".world-design/library/tools/write_guard.py": "795b1a878d677d3b447e98977b1e6c8ec92ffec2291f7f3ec8b2c24525b5bf9f",
-    "AGENTS.md": "ba4d4af5c2eaa346efbc3aaaa00b5837ca9cfe7b68ac98599b1ad21776e69718",
+    "AGENTS.md": "443b63f6c2348813794d1e09ec4454a63281c352aa07b3d11a133da23088ed3f",
     "CLAUDE.md": "c9b5e76f6edc1894f44e4b19711305220e6a54bb8102d5419904ffb0622dc2e5",
-    "START-HERE.md": "105fbd62a1f89376977797e38ace01fd64bda420b00dbdaaf096115c755383df"
+    "START-HERE.md": "1425f9bfc9774f50235b37203a5cfc1674cea170947501de24140e5691f12a5e"
   }
 }

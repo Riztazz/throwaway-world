@@ -45,6 +45,15 @@ def _status(text: str) -> str:
     return ""
 
 
+def review_note(text: str) -> str:
+    """The user's `Review note:` line in the first lines of a file ('' when none)."""
+    for line in text.split("\n")[:14]:
+        match = re.match(r"(?i)^\s*review[ _]note:\s*(.+?)\s*$", line)
+        if match:
+            return match.group(1)
+    return ""
+
+
 def build_state(root: Path) -> tuple[str, list[str]]:
     """(report text, blockers). No blockers means the pitch round may start."""
     world = _read_json(root / ".world-design" / "world.json")
@@ -67,11 +76,15 @@ def build_state(root: Path) -> tuple[str, list[str]]:
     analysis = root / REFS / "ANALYSIS.md"
     state = _status(read_text(analysis)) if analysis.is_file() else "missing"
     lines.append(f"3. Reference map (ANALYSIS.md): {state or 'no status line'}.")
-    if state != "approved":
+    if state == "rejected":
+        blockers.append(f"you rejected the reference map: {review_note(read_text(analysis)) or 'no note'}. Revise it (a new draft, `status: proposed`, delete the Review note line)")
+    elif state != "approved":
         blockers.append("approve the reference map: set `status: approved` in authoring/references/ANALYSIS.md" if analysis.is_file()
                         else "the reference map (authoring/references/ANALYSIS.md) is not written yet: run the bootstrap prompt")
 
     cards = {"hard": 0, "soft": 0, "other": 0}
+    card_states = {"approved": 0, "rejected": 0}
+    rejected_cards: list[str] = []
     carded: set[str] = set()
     for folder in ("roles", "categories"):
         base = root / REFS / folder
@@ -79,9 +92,18 @@ def build_state(root: Path) -> tuple[str, list[str]]:
             for _, fields in _cards(read_text(path)):
                 bind = (re.search(r"Binding:\s*(\w+)", fields.get("Id", "")) or re.match(r"()", "")).group(1).lower() or fields.get("Binding", "").lower()
                 cards[bind if bind in ("hard", "soft") else "other"] += 1
+                state_word = (fields.get("Status", "").lower().split() or [""])[0]
+                if state_word in card_states:
+                    card_states[state_word] += 1
+                if state_word == "rejected":
+                    atom = (re.match(r"(\S+)", fields.get("Id", "")) or re.match(r"()", "")).group(1)
+                    rejected_cards.append(f"{folder}/{path.name} {atom}: {fields.get('Review note') or 'no note'}")
                 if folder == "roles":
                     carded.add(path.stem)
-    lines.append(f"4. Atom cards: {cards['hard']} hard, {cards['soft']} soft" + (f", {cards['other']} without a binding" if cards["other"] else "") + ".")
+    lines.append(f"4. Atom cards: {cards['hard']} hard, {cards['soft']} soft" + (f", {cards['other']} without a binding" if cards["other"] else "")
+                 + (f" ({card_states['approved']} approved, {card_states['rejected']} rejected)" if card_states["approved"] or card_states["rejected"] else "") + ".")
+    for entry in rejected_cards:
+        lines.append(f"   Rejected card, to revise: {entry}")
     missing = [r for r in required_roles(root, products) if not (root / REFS / "roles" / f"{r}.md").is_file()]
     if missing:
         lines.append(f"   Required roles without a role card: {', '.join(missing)}.")
@@ -90,14 +112,20 @@ def build_state(root: Path) -> tuple[str, list[str]]:
     voice = root / "voice.md"
     vstate = _status(read_text(voice)) if voice.is_file() else "missing"
     lines.append(f"5. voice.md: {vstate or 'no status line'}.")
-    if vstate != "approved":
+    if vstate == "rejected":
+        blockers.append(f"you rejected voice.md: {review_note(read_text(voice)) or 'no note'}. Revise it (a new draft, `Status: proposed`, delete the Review note line)")
+    elif vstate != "approved":
         blockers.append("approve voice.md: set `Status: approved` at the top" if vstate in ("proposed", "draft") else "voice.md is not written yet: run the bootstrap prompt")
 
     ex_dir = root / REFS / "exemplars"
     exemplars = [p for p in sorted(ex_dir.glob("*.md")) if p.name.lower() != "readme.md"] if ex_dir.is_dir() else []
     states = {p.name: _status(read_text(p)) for p in exemplars}
     approved = [n for n, s in states.items() if s == "approved"]
-    lines.append(f"6. Exemplars: {len(approved)} approved, {len(exemplars) - len(approved)} proposed.")
+    rejected = [n for n, s in states.items() if s == "rejected"]
+    lines.append(f"6. Exemplars: {len(approved)} approved, {len(exemplars) - len(approved) - len(rejected)} proposed"
+                 + (f", {len(rejected)} rejected" if rejected else "") + ".")
+    for name in rejected:
+        lines.append(f"   Rejected, to revise: {name}: {review_note(read_text(ex_dir / name)) or 'no note'}")
     if exemplars and not approved:
         blockers.append("approve at least one exemplar: set `status: approved` in a file under authoring/references/exemplars/")
     if not exemplars:

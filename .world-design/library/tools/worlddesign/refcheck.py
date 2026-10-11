@@ -20,7 +20,8 @@ from .textio import fold, read_text, slug
 REFS = "authoring/references"
 CARD_FIELDS = ("Id", "Binding", "Effect", "Mechanism", "Test", "In this world", "Plain", "Applied", "Avoid", "Evidence", "Used by")
 _ATOM_ID = re.compile(r"^[a-z0-9][a-z0-9-]*\.[a-z][a-z-]*\.\d+$")
-_FIELD = re.compile(r"^- (%s):\s*(.*)$" % "|".join(re.escape(f) for f in CARD_FIELDS))
+REVIEW_FIELDS = ("Status", "Review note")  # written by the review page (or the agent); not required by the lint
+_FIELD = re.compile(r"^- (%s):\s*(.*)$" % "|".join(re.escape(f) for f in CARD_FIELDS + REVIEW_FIELDS))
 
 
 _slug = slug

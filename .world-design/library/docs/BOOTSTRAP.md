@@ -98,6 +98,21 @@ py -3 .world-design/library/tools/bootstrap_status.py [--strict]
 
 Read-only. Lists the intake, decisions, the reference map status (`status:` in `authoring/references/ANALYSIS.md`), atom cards by binding, required roles without a role card, the `voice.md` status (`Status:` at the top), exemplars proposed versus approved, and pitch rounds written, then says READY or NOT READY for the pitch round and names what to approve. You approve by editing the status to `approved`. `--strict` exits 1 when not ready.
 
+## Review page
+
+```
+py -3 tools/new_world.py --review WORLD_FOLDER
+```
+
+Opens the bootstrapper's page on the **Review** tab for that world (or open the tab and choose the folder). It shows what the agent has written and refreshes itself every two seconds while the agent works: the status lines from `bootstrap_status`, what is still to do, the reference map, `voice.md`, each exemplar, open questions from `decisions/INBOX.md`, pitch rounds, and the technique cards. A click does one of these and nothing else:
+
+- **Send the agent** (the box at the top) always shows the one message to send next, with a Copy button: the bootstrap prompt line when nothing is written yet, "revise what I rejected" after a rejection, the pitch prompt line (in a fresh session) when everything is approved, "continue with the next round" after you picked a pitch. While you still have something to judge it says what, and shows no message.
+- **Approve** or **Reject** sets the `status:` line of `authoring/references/ANALYSIS.md`, `voice.md` or one exemplar, or the `- Status:` line of one technique card (optional: cards for hard references come first and never block the pitch round; each shows its sample pair, without the technique and with it). A rejection keeps the reason in a `Review note:` line (`review_note:` inside frontmatter); `bootstrap_status` lists it, and the agent revises the file and sets it back to `proposed`. Undo returns an approved item to `proposed`.
+- **Answer** or **Accept** records an open or proposed decision as `accepted` with your words (or "accepted as proposed, by a click on the review page") in `authority`, and appends your answer to the decision.
+- **Record my choice** on a pitch round accepts the round's pending decision, or writes a new accepted one, naming the pitch and the options not chosen.
+
+The page reads one world folder (it must have `.world-design/world.json`) and writes only those lines and decisions; it never touches `world/`, `manifest.json` or any other file. It needs the world's files on this computer: if the agent works elsewhere (for example in the cloud), you move the files yourself (git pull before you look, git push after you click); the page does no syncing. It uses the library's copy of the code, so a world made before this page existed shows rejections to the agent only after `new_world.py update` brings the world's `bootstrap_status.py` up to date.
+
 ## Command lines
 
 Every tool script in `tools/` (and in a world's `.world-design/library/tools/`) is an ordinary command line: `--help` lists what it takes, a misspelt or abbreviated flag stops it with exit 2 and the usage line (nothing is written), and the world tools find the world from the current folder or any folder below it, or from `--world PATH` (given before or after the command). `canon_lint.py`, `finish_check.py` and `bootstrap_status.py` also take the folder as a positional argument. The five hook scripts read JSON on stdin and take no arguments.

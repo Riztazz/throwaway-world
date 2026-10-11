@@ -17,6 +17,7 @@ Copy this block once per technique. One card is one **atom**: a technique small 
 ## <short name of the technique>
 
 - Id: <creator-slug>.<aspect>.<n>        Binding: hard | soft
+- Status: proposed        (the user approves or rejects it on the review page; a rejection adds a `- Review note:` line: revise the card, set it back to proposed, delete the note)
 - Effect: what the reader or player experiences (one sentence).
 - Mechanism: the steps by which the writing causes it (concrete: where attention goes, what is withheld, how a term is introduced, rhythm).
 - Test: one question an editor can ask of a draft to check the technique is present.

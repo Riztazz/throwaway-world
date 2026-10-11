@@ -38,7 +38,7 @@ Run `py -3 .world-design/library/tools/canon_lint.py` after writing the file: an
 
 ## Deciding
 
-Record the round as one `proposed` decision (`type: question`) that names the options and lists the pitch file. Present the choice in chat with the options (a structured question tool if your client has one). The user may pick one, merge pieces ("A, but with B's cost"), reject all, or ask for another round. State the seams of any merge before recording it. When they decide, record `accepted` with their exact words, record the rejected options as `rejected` so they are not pitched again, and update `decisions/INBOX.md`.
+Record the round as one `proposed` decision (`type: question`) that names the options and lists the pitch file. Present the choice in chat with the options (a structured question tool if your client has one). The user may pick one, merge pieces ("A, but with B's cost"), reject all, or ask for another round. State the seams of any merge before recording it. When they decide, record `accepted` with their exact words, record the rejected options as `rejected` so they are not pitched again, and update `decisions/INBOX.md`. The user may instead choose on the review page (`new_world.py --review`): that accepts the round's decision or records a new accepted one, naming the pick and not-chosen options. When you are told to continue, read `decisions/` first; if the round is already decided there, record the not-chosen options as `rejected`, do not ask again, and go on with the next round.
 
 ## After a pick
 
